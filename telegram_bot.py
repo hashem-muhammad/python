@@ -13,7 +13,7 @@ owner = 'HashemMuhammad'
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
     bot.send_message(
-        message.chat.id, "welcom to song bot by modex\n just send song link on youtube")
+        message.chat.id, "welcom to song bot by Hashem\n just send song link on youtube")
 
 
 @bot.message_handler(commands=['help'])
